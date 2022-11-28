@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>GET UR COOKIES</title>
+		<meta charset="utf-8">
+		<link href="cookies.css" rel="stylesheet">
+	</head>
+
+<body>
+	<div id="wrapper">
+		<header> 
+			<h1><a href="index.html">GET UR COOKIES</a></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cookies.html">Cookies</a></li>
+				<li><a href="orderonline.html">Order</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+			<div id="orderhero"> </div>
+	<main>
+		<h1><span class="cookies"> ORDER ONLINE </span></h1>
+		<h2> Get Ur Cookies Today!</h2>
+    <P>
+        Required fields are marked with an asterisk *
+    </P>
+    <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+			<hr>
+			<h2>What are you ordering today?</h2>
+			<br> <br> 
+<input required type="radio" name="Cookie" id="favCH" value="Chocolate Chip"> Chocolate Chip <br>
+<input required type="radio" name="Cookie" id="favSC" value="Shortbread Cookies"> Shortbread Cookies <br>
+<input required type="radio" name="Cookie" id="favSCC" value="Sugar Cookies"> Sugar Cookies<br>
+<input required type="radio" name="Cookie" id="favGC" value="Gingerbread Cookie"> s<br>
+<input required type="radio" name="Cookie" id="favBC" value="Biscotti Cookies"> Biscotti Cookies<br>
+<hr>
+
+<h2>How many?</h2>
+<label for="nofcookies"># of Cookies</label>
+        <input class="nofcookies" type="number" name="nofcookies" id="nofcookies" min="1" max="21">
+<hr>
+<br>
+			  <label for="name">*Name</label>
+			  <input required type="text" id="name" name="name" autocomplete="name">
+
+			  <label for="street-address">*Street address</label>
+              <input  required type="text" id="street-address" name="street-address">
+
+			  <label for="postal-code">ZIP or postal code (optional)</label>
+              <input class="postal-code" id="postal-code" name="postal-code">
+			  <br>
+			  <hr>
+		
+			  <select size="1" name="favbrowser" id="favbrowser">
+				<option>Select your Country</option>
+				<option value="US">USA</option>
+				<option value="CN">CHINA</option>
+				<option value="HAT">HAITI</option>
+			   </select>
+			  <br>
+
+			  <hr>
+
+<input type="submit" value="Submit">
+      </form>
+		<div id="contact">
+			GET UR COOKIES<br>
+			Get your Cookies Road<br>
+			Framington, UT 84048<br>
+			<br>
+			801-395-5628<br>
+			<br>
+		</div>
+		
+	</main>
+	<footer>
+		<small><i>
+			copyright &copy; 2020 Pacific Trails Resort <br>
+			<a href="mailto:4800629371@davistech.edu">
+				4800629371@davistech.edu
+			</a>
+		</i></small>
+	</footer>
+</div>
+</body>
+</html>
